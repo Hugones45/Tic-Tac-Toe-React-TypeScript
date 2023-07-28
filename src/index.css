@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+.block {
+  border: 2px solid #000;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.board {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+.row {
+  display: flex;
+}
